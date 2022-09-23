@@ -2,9 +2,7 @@ import mongoose from "mongoose";
 
 const postSchema = mongoose.Schema({
     title: String,
-    link: String,
-    password: String,
-    selectedFile: String,
+    message: String,
     createdAt: {
         type: Date,
         default: new Date()
