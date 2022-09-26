@@ -2,3 +2,4 @@ server/.env
 server/node_modules
 server/.gitignore
 client/node_modules
+client/build
